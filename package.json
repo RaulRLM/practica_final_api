@@ -6,10 +6,16 @@
   "scripts": {
     "start": "node app.js"
   },
-  "keywords": ["api","azure","nodejs","flutter"],
-    "author": "Raül",
+  "keywords": [
+    "api",
+    "azure",
+    "nodejs",
+    "flutter"
+  ],
+  "author": "Raül",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
