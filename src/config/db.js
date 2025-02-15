@@ -1,10 +1,10 @@
 const sql = require('mssql')
 
 const config = {
-  user: process.env.DB_USER,
-  password: process.env.DB_PASSWORD,
-  server: process.env.DB_HOST,
-  database: process.env.DB_NAME,
+  user: 'raul',
+  password: 'root1234!',
+  server: 'spdvi2024sqlserverraul.database.windows.net',
+  database: 'PlantesTEST',
   options: {
     encrypt: true,
     trustServerCertificate: false,
