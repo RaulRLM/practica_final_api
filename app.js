@@ -7,11 +7,11 @@ const swaggerJsdoc = require('swagger-jsdoc')
 const swaggerUi = require('swagger-ui-express')
 
 // Importa las configuraciones de la conexión a la base de datos
-const db = require('./config/db')
+const db = require('./src/config/db')
 
-const userRoutes = require('./routes/userRoutes')
-const plantRoutes = require('./routes/plantRoutes')
-const itemsRoutes = require('./routes/itemsRoutes')
+const userRoutes = require('./src/routes/userRoutes')
+const plantRoutes = require('./src/routes/plantRoutes')
+const itemsRoutes = require('./src/routes/itemsRoutes')
 
 const app = express()
 const PORT = process.env.PORT || 8080
