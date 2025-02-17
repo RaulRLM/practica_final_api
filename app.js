@@ -14,7 +14,7 @@ const plantRoutes = require('./src/routes/plantRoutes')
 const itemsRoutes = require('./src/routes/itemsRoutes')
 
 const app = express()
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 3000
 
 // Configuración de Swagger
 const swaggerOptions = {
@@ -27,7 +27,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://192.168.144.1:8080',
+        url: 'http://192.168.144.1:3000',
       },
     ],
   },
